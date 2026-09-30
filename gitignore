@@ -1,0 +1,31 @@
+# ============================================
+# ARQUIVOS PROTEGIDOS - NÃO SUBIR AO GITHUB
+# ============================================
+
+# O sistema completo - NUNCA sobe
+sistema-oracular*.html
+sistema-oracular-base*.html
+sistemas-oraculares*.html
+
+# Backups locais
+*.bak
+*-backup.*
+*-copia*.html
+
+# Arquivos de desenvolvimento
+/dev/
+/src/
+/build/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Variáveis de ambiente (senhas, chaves)
+.env
+.env.local
+*.env
+
+# Node modules (se usar no futuro)
+node_modules/
